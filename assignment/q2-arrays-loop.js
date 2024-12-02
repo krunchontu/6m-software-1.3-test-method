@@ -4,10 +4,13 @@
     - Print each student's name inside the loop using console.log().
 */
 
-const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"]
+const studentList = ["Johnson", "Christina", "Michael", "Lina", "Larry", "Michelle", "Bob", "Wilson"];
 
-function printStudentNames(){
+function printStudentNames() {
     // Add code here
+    for (let student of studentList) {
+        console.log(student);
+    }
 }
 
 printStudentNames();
@@ -16,4 +19,4 @@ printStudentNames();
 module.exports = {
     studentList,
     printStudentNames
-}
+};
